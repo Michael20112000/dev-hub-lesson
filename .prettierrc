@@ -3,5 +3,8 @@
   "jsxSingleQuote": true,
   "arrowParens": "avoid",
   "semi": false,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
 }
