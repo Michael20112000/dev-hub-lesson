@@ -1,5 +1,7 @@
+import { styles } from './styles'
+
 const Home = () => {
-  return <div>Home</div>
+  return <div className={styles.container}>Home</div>
 }
 
 export default Home
