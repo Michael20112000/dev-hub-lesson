@@ -1,1 +1,13 @@
 @import 'tailwindcss';
+
+@theme inline {
+  --spacing: 0.0625rem;
+
+  --font-geist: var(--font-geist);
+}
+
+@layer base {
+  body {
+    @apply font-geist;
+  }
+}
